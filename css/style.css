@@ -2,7 +2,22 @@
 *{
   margin:0 auto;
   padding:0;
-  border: 1px solid black;
   box-sizing: border-box;
   background-color: pink;
+}
+
+.header .content{
+  padding-bottom: 100px;
+}
+
+
+section .content{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+[class*="col-"]{
+  border: .5px solid black;
+  text-align: center;
+
 }
