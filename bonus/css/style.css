@@ -1,0 +1,184 @@
+
+
+/* ..................mondrian style............... */
+
+
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.content {
+  border:4px solid black;
+}
+
+.row1 .content {
+  height: 100px;
+}
+
+.row1 .container [class*="col-"]:first-of-type .content{
+  background-color: #e8f1f7;
+}
+
+.row1 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: #f2f5ee;
+}
+
+.row1 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: #fed865;
+}
+
+.row1 .container [class*="col-"]:last-of-type .content{
+  background-color: #e8f1f7;
+  border-bottom: 0;
+}
+
+
+
+/* ---------------------------------RIGA 2...................... */
+
+.row2 .content {
+  height: 200px;
+}
+
+.row2 .container [class*="col-"]:first-of-type .content{
+  background-color: white;
+
+}
+
+.row2 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: #f2482e;
+  border-bottom: 0;
+}
+
+.row2 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: #fed865;
+}
+
+.row2 .container [class*="col-"]:last-of-type .content{
+  background-color: #e8f1f7;
+  border-top: 0;
+}
+
+
+/* ---------------------------------RIGA 3...................... */
+
+.row3 .content {
+  height: 200px;
+}
+
+.row3 .container [class*="col-"]:first-of-type .content{
+  background-color: #e8f1f7;
+  border-bottom: 0;
+}
+
+.row3 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: #f2482e;
+  border-top: 0;
+}
+
+.row3 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: #e8f1f7;
+}
+
+.row3 .container [class*="col-"]:nth-of-type(4) .content{
+  background-color: white;
+}
+
+
+.row3 .container [class*="col-"]:last-of-type .content{
+  background-color: #e8f1f7;
+  border-bottom: 0;
+}
+
+
+
+/* ---------------------------------RIGA 4...................... */
+
+.row4 .content {
+  height: 100px;
+}
+
+.row4 .container [class*="col-"]:first-of-type .content{
+  background-color: #e8f1f7;
+  border-top: 0;
+}
+
+.row4 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: black;
+}
+
+.row4 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: #e8f1f7;
+}
+
+.row4 .container [class*="col-"]:nth-of-type(4) .content{
+  background-color: white;
+}
+
+
+.row4 .container [class*="col-"]:last-of-type .content{
+  background-color: #e8f1f7;
+  border-top: 0;
+}
+
+
+/* ---------------------------------RIGA 5...................... */
+
+
+.row5 .content {
+  height: 100px;
+}
+
+.row5 .container [class*="col-"]:first-of-type .content{
+  background-color: #fed865;
+  border-bottom: 0;
+}
+
+.row5 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: black;
+}
+
+.row5 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: #e8f1f7;
+}
+
+.row5 .container [class*="col-"]:nth-of-type(4) .content{
+  background-color: blue;
+  border-bottom: 0;
+}
+
+.row5 .container [class*="col-"]:last-of-type .content{
+  background-color: #f2482e;
+  border-bottom: 0;
+}
+
+/* ---------------------------------RIGA 6...................... */
+
+.row6 .content {
+  height: 100px;
+}
+
+.row6 .container [class*="col-"]:first-of-type .content{
+  background-color: #fed865;
+  border-top: 0;
+}
+
+.row6 .container [class*="col-"]:nth-of-type(2) .content{
+  background-color: white;
+}
+
+.row6 .container [class*="col-"]:nth-of-type(3) .content{
+  background-color: black;
+}
+
+.row6 .container [class*="col-"]:nth-of-type(4) .content{
+  background-color: blue;
+  border-top: 0;
+}
+
+.row6 .container [class*="col-"]:last-of-type .content{
+  background-color: #f2482e;
+  border-top: 0;
+}
