@@ -6,18 +6,22 @@
   background-color: pink;
 }
 
-.header .content{
-  padding-bottom: 100px;
-}
-
-
-section .content{
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
-
 [class*="col-"]{
   border: .5px solid black;
   text-align: center;
+}
+
+header .content{
+  height: 100px;
+}
+
+footer .content,
+main .content{
+  line-height: 200px;
+  height: 200px;
+}
+
+.footer.contanier .container > div{
+  background-color: blue;
 
 }
