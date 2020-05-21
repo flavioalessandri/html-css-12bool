@@ -6,33 +6,48 @@
 }
 
 body{
-    background-color: pink;
+  background-color: pink;
 }
 
 [class*="col-"]{
   text-align: center;
+  border: .5px solid black;
+  padding: 4px;
 }
 
 .content{
-  height: 100px;
-  border: .5px solid black;
-}
-
-header .content >*{
   position: relative;
-  top:0;
+  height:100px;
 }
 
-.content >*{
-  position: relative;
-  top:50%;
-  transform: translateY(100px);
+main span, footer span{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
+header span{
+  position: absolute;
+  top: 0%;
+  transform: translatex(-50%);
+}
 
 
 footer .contanier .content:only-child{
   background-color: #ff787c;
-  margin:5px 5px;
   border:1px solid white;
+  padding: 0;
 }
+
+
+/* footer [class*="col-"]:nth-child(an+b){
+  border:6px solid white;
+  background-color: red;
+} */
+
+
+
+/* .footer .container [class*="col-"] div:first-of-type{
+  border:6px solid white;
+  background-color: red;
+} */
