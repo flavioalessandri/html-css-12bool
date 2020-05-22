@@ -1,0 +1,49 @@
+
+
+/* ..................mondrian style............... */
+
+
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top:100px;
+    background-color: #dadeff;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.content{
+  border-radius: 5px;
+}
+
+[class*="row"] .content{
+  height: 50px;
+}
+
+
+
+[class*="col-"] {
+  padding:2px;
+}
+
+
+
+.red {
+  background-color: #ff5031;
+}
+
+.yellow {
+  background-color: #fff455;
+}
+
+.blue {
+  background-color: #6461ff;
+}
+
+.green {
+  background-color: #92ff63;
+}
